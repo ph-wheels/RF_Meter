@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "RF_92BD",
+			"path": "..\\..\\RF_92BD"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"system_error": "cpp",
+			"array": "cpp",
+			"functional": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"new": "cpp",
+			"cmath": "cpp",
+			"random": "cpp"
+		}
+	}
+}
