@@ -15,3 +15,5 @@ https://nl.aliexpress.com/item/1005004908874511.html?spm=a2g0o.productlist.main.
 
 PCB push buttons 2mm heigth
 https://nl.aliexpress.com/item/1005002487157451.html?spm=a2g0o.productlist.main.27.405d511c7oY0nu&algo_pvid=696a2554-8128-4a2b-9931-d4fd5b0bfa4e&algo_exp_id=696a2554-8128-4a2b-9931-d4fd5b0bfa4e-13&pdp_ext_f=%7B%22sku_id%22%3A%2212000020837098434%22%7D&pdp_npi=2%40dis%21EUR%211.08%210.84%21%21%21%21%21%402145265416751888857782468d06e7%2112000020837098434%21sea&curPageLogUid=OMPyI9mgSnaB
+
+Cap and Resistors unless otherwise indicated are type SMD 0805 size
