@@ -1,0 +1,28 @@
+Special parts for ADC brd obtained from Digikey
+===============================================
+regulator LT1761IS5-BYP
+decoder 296-18203-1-ND
+U8 adc MAX11270EUG+-ND
+C7-C12 47nF Poly Carb Wima 63V
+IC1, IC2, IC3 Op Amp LTC2055IMS8#TRPBFCT-ND
+U6 Mux MAX4618EUE+-ND
+U5 Vref MAX6070AAUT18+TCT-ND
+U7 3V6 reg LT1761IS5-BYP#TRMPBFCT-ND
+U9 3V3 reg 161-LT1761IS5-3.3#TRPBFCT-ND
+or 
+U10 AMS1117-3.3 4518-AMS1117-3.3CT-ND
+dual diode 448-BAT62E6327HTSA1CT-ND
+ssr AQY212SZ 255-6064-1-ND *********************** to correct
+R1, R2, R3, R4 113 Ohm A110452CT-ND
+R14, R15, R16, R17, R18, R19 resistor 5M6 541-5.60MCCT-ND
+R28 2019-RN73H2ATTD1001B25CT-ND
+R16-R27 100K MCU08050C1003FP500
+capacitor 10uF 399-7443-1-ND
+capacitor 1 uF 399-7342-1-ND
+capacitor 100nF 478-7961-1-ND
+C16, C17, C18 capacitor 10nF COG 399-7990-6-ND
+Power socket PJ-037A CP-037A-ND
+J6 ffc connector A101387TR-ND - Tape & Reel (TR)
+J1, J2 sma connector CON-SMA-EDGE-S-ND
+rotory encoder PEC11R-4220F-S0024-ND
+All Cap and Resistors are type SMD 0805 size
