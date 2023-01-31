@@ -25,5 +25,4 @@ C32, C36 100nF COG type
 Power socket PJ-037A CP-037A-ND
 J6 ffc connector A101387TR-ND - Tape & Reel (TR)
 J1, J2 sma connector CON-SMA-EDGE-S-ND
-rotory encoder PEC11R-4220F-S0024-ND
 All Cap and Resistors are type SMD 0805 size
