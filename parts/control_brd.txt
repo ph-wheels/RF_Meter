@@ -4,3 +4,7 @@ J6 ffc connector A101387TR-ND - Tape & Reel (TR)
 ESP32-VROOM-32D Aliexpress https://nl.aliexpress.com/item/2037396994.html?spm=a2g0o.order_list.order_list_main.89.443179d2BFSteC&gatewayAdapt=glo2nld
 LCd /w touch screen 3.5"
 https://nl.aliexpress.com/item/1005001989363608.html?spm=a2g0o.order_list.order_list_main.171.443179d2BFSteC&gatewayAdapt=glo2nld
+2S1A version charger pcb
+https://nl.aliexpress.com/item/1005001375217962.html?spm=a2g0o.order_detail.order_detail_item.3.2d116d76FvCOdA&gatewayAdapt=glo2nld
+Optional Battery Manage System (BMS)
+https://nl.aliexpress.com/item/33022489063.html?spm=a2g0o.order_detail.order_detail_item.3.52d06d76bVa4PV&gatewayAdapt=glo2nld
