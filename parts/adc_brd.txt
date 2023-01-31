@@ -24,4 +24,4 @@ C16, C17, C18 capacitor 10nF COG type 399-7990-6-ND
 C32, C36 100nF COG type
 J6 ffc connector A101387TR-ND - Tape & Reel (TR)
 J1, J2 sma connector CON-SMA-EDGE-S-ND
-All Cap and Resistors are type SMD 0805 size
+Cap and Resistors unless otherwise indicated are type SMD 0805 size
