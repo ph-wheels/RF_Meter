@@ -2,3 +2,5 @@ rotory encoder PEC11R-4220F-S0024-ND
 Power socket PJ-037A CP-037A-ND
 J6 ffc connector A101387TR-ND - Tape & Reel (TR)
 ESP32-VROOM-32D Aliexpress https://nl.aliexpress.com/item/2037396994.html?spm=a2g0o.order_list.order_list_main.89.443179d2BFSteC&gatewayAdapt=glo2nld
+LCd /w touch screen 3.5"
+https://nl.aliexpress.com/item/1005001989363608.html?spm=a2g0o.order_list.order_list_main.171.443179d2BFSteC&gatewayAdapt=glo2nld
