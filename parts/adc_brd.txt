@@ -12,7 +12,7 @@ U9 3V3 reg 161-LT1761IS5-3.3#TRPBFCT-ND
 or 
 U10 AMS1117-3.3 4518-AMS1117-3.3CT-ND
 dual diode 448-BAT62E6327HTSA1CT-ND
-ssr AQY212SZ 255-6064-1-ND *********************** to correct
+ssr AQY212GS 2SOP4 Aliexpress https://nl.aliexpress.com/store/911260323?spm=a2g0o.order_list.order_list_main.76.443179d2BFSteC
 R1, R2, R3, R4 113 Ohm A110452CT-ND
 R14, R15, R16, R17, R18, R19 resistor 5M6 541-5.60MCCT-ND
 R28 2019-RN73H2ATTD1001B25CT-ND
