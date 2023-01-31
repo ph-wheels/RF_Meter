@@ -1,1 +1,3 @@
 rotory encoder PEC11R-4220F-S0024-ND
+Power socket PJ-037A CP-037A-ND
+J6 ffc connector A101387TR-ND - Tape & Reel (TR)
