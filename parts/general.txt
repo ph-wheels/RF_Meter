@@ -1,1 +1,5 @@
 ALl boards have been manufactored by JLCPCB without any issue's and had good quality
+
+To upload firmware to serial port @ TTL level following adaptor /w cable has been used
+https://nl.aliexpress.com/item/4001225137963.html?spm=a2g0o.order_detail.order_detail_item.5.530c6d76aP8WR8&gatewayAdapt=glo2nld
+Note: for this to work max speed should be 230KB for upload and JP2 on control brd should be closed
