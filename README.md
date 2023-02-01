@@ -12,7 +12,7 @@ power meter as to fixed the issue with the mechanical chopper, without his value
 contribution and experiance this project would never exist.
 
 The current design is based to 2 main PCB's and a battery board which also provides
-some sheilding to ADC board when mounted on top off it.
+some shielding to ADC board when mounted on top off it.
 
 The control board consist of a connection to battery board, a flatcable connection
 to ADC board and uart connection (ttl level) to external usb serial interface.
