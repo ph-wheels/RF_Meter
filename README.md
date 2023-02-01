@@ -9,7 +9,8 @@ drawning and PCB where used in the process to the current V5 of the ADC board.
 This project has been a combined effort with Jacques (ve2azx, http://www.ve2azx.net),
 who already had developped a replacement board for the Boonton series of millivolt/
 power meter as to fixed the issue with the mechanical chopper, without his valued
-contribution and experiance this project would never exist.
+contribution, experiance, feedback and high precision RF measurement this project
+would never exist.
 
 The current design is based to 2 main PCB's and a battery board which also provides
 some shielding to ADC board when mounted on top off it.
