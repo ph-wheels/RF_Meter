@@ -27,3 +27,9 @@ LCD screen.
 
 The ADC board consist of 2 SMA connectors and a flatcable connection to the control board,
 and optionally a connection to a 2 pin Amphenol connector, simular to the Boonton instruments.
+This board holds 3 main area's being 3x input circuit, multiplexer with the ADC chip and the
+voltages / reference sources with some control to switch attenuator and optional panel leds.
+The input circuits for channels A/B are terminated with 50 Ohm followed by detector circuit
+and attenuator, which is used to obtain a +23dBm range, into a differential low noise x1
+amplifier, channel C (with it's components populated) only has the differential load resistors,
+attenuator and differential low noise x1 amplifier and is therefore not be a 50 Ohm input source.
