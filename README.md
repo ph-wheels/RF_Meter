@@ -7,7 +7,7 @@ As a result of that, the idea was born to create a millivolt and/or power meter
 using one of the modern ADC chips available today and since that time a few test
 drawning and PCB where used in the process to the current V5 of the ADC board.
 This project has been a combined effort with Jacques (ve2azx, http://www.ve2azx.net),
-who had already developped a replacement board for the Boonton series of millivolt/
+who already had developped a replacement board for the Boonton series of millivolt/
 power meter as to fixed the issue with the mechanical chopper, without his valued
 contribution and experiance this project would never exist.
 
