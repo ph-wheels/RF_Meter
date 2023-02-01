@@ -40,7 +40,7 @@ Project status has been closed for now as we have finished our mean development 
 - obtained a less than -55 dBm and up to +23 dBm input range
 - having a frequency range off less then 10 MHz upto in excess of 1 GHz
 - having an auto range mechanism in place over entire input range
-- having mechanism to load and maintain correction tables in none volatile memory
+- having mechanism in place to load and maintain correction tables in none volatile memory
 
 One area left for improvement is the option to obtain differential power reading between channel
 B - A which kind of works (reasonably well within the lower 2 ranges) but will be slower in it's
