@@ -2,7 +2,7 @@ Steps need to flash firmware into the MCU chip (ESP32)
 - control board should be completed as described in build\control_brd.txt
 - suitable supply source to be attached
 - suitable ttl level to USB adapter connected, see parts list or FT232BL based adapter
-USB to be plugged into Windows based system 7, 10 or 11 and the driver to be properly installed
+USB adapter to be plugged into Windows based system 7, 10 or 11 and the driver to be properly installed
 Then copy the files found under 'software/flash_download_tool_3.9.0/' to a suitable folder on your pc
 either copy the file BinFiles_269.zip to a windows folder (downloads or documents) and unzip then OR
 copy the four *.bin files to a windows folder (downloads or documents)
