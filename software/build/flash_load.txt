@@ -1,3 +1,5 @@
 In order to be able to load the flash content we need:
 - Terminal emulation application, I used RealTerm for this as it's able to sent command and upload a file
-- The flash content file in "JSON" format which is provide for in the 
+- The flash content file in "JSON" format which is provide for in this folder named "Corr-rf_mtr.json"
+- Operation Control board and firmware successfully loaded
+Download and install the RealTerm from this source (https://sourceforge.net/projects/realterm/), yes it's an fairly old program but still does the job at hand.
