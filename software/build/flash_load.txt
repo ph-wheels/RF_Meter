@@ -1,5 +1,14 @@
 In order to be able to load the flash content we need:
-- Terminal emulation application, I used RealTerm for this as it's able to sent command and upload a file
-- The flash content file in "JSON" format which is provide for in this folder named "Corr-rf_mtr.json"
-- Operation Control board and firmware successfully loaded
-Download and install the RealTerm from this source (https://sourceforge.net/projects/realterm/), yes it's an fairly old program but still does the job at hand.
+- Terminal emulation application, I used RealTerm for this as it's able to sent command's and upload a file
+- The flash content file in "JSON" format which is provide in this folder named "Corr-rf_mtr.json"
+- Operational Control board and firmware successfully loaded and running with USB serial adaptor connected to PC
+
+Download and install the RealTerm from this source (https://sourceforge.net/projects/realterm/), yes it's an
+fairly old program but still does the job at hand nicely.
+
+Start the RealTerm terminal emulator program and make following changes:
+- Select port tab and select the proper serial port (\Serialx) from drop down
+- Set communication speed to 9600 Baud, No Parity, 8 Bits, 1 Stop, No Flow Control
+- Click on the open button and then click on it again, notice port settings in right bottom corner to be active
+
+- Now change to the send tab, => to be continued ....
