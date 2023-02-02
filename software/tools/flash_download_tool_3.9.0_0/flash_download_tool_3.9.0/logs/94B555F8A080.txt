@@ -1,68 +1,0 @@
-*************************** START ****************************
-START TIME: 202208152012
-CONNECT BAUD: 115200
-com port closed
-set state: ESP_DL_SYNC
-serial port opened
------------
-baud:115200
-root baud:115200
--------------
-===============BAUD : 115200===============CALL DEVICE SYNC
-connecting...
-chip sync ok
-mac l: 0x55f8a080
-mac h: 0x6394b5
-crc_cal: 99
-crc_read: 99
-crc_test: 0
-ESP32 MAC CRC OK
-get mac res: 1
-get flash id : 0x0016405e
-manufacturer_id: 0x5e
-device_id: 0x4016
-Wrote 17104 bytes (11191 compressed) at 0x00001000 in 1.0 seconds (effective 138.2 kbit/s)...
-Hash of data verified.Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.0 seconds (effective 1228.9 kbit/s)...
-Hash of data verified.Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.0 seconds (effective 6555.0 kbit/s)...
-Hash of data verified.Wrote 866096 bytes (527851 compressed) at 0x00010000 in 46.5 seconds (effective 149.0 kbit/s)...
-Hash of data verified.
-Leaving...
-com closed
-Use time: 50 s
-Download result: PASS
-*************************** END ****************************
-
-*************************** START ****************************
-START TIME: 202208152014
-CONNECT BAUD: 115200
-com port closed
-set state: ESP_DL_SYNC
-serial port opened
------------
-baud:115200
-root baud:115200
--------------
-===============BAUD : 115200===============CALL DEVICE SYNC
-connecting...
-chip sync ok
-mac l: 0x55f8a080
-mac h: 0x6394b5
-crc_cal: 99
-crc_read: 99
-crc_test: 0
-ESP32 MAC CRC OK
-get mac res: 1
-get flash id : 0x0016405e
-manufacturer_id: 0x5e
-device_id: 0x4016
-Wrote 17104 bytes (11191 compressed) at 0x00001000 in 0.5 seconds (effective 273.7 kbit/s)...
-Hash of data verified.Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.0 seconds (effective 2457.8 kbit/s)...
-Hash of data verified.Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.0 seconds (effective 6556.4 kbit/s)...
-Hash of data verified.Wrote 866096 bytes (527851 compressed) at 0x00010000 in 23.4 seconds (effective 296.2 kbit/s)...
-Hash of data verified.
-Leaving...
-com closed
-Use time: 26 s
-Download result: PASS
-*************************** END ****************************
-
