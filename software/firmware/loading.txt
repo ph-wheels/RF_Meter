@@ -3,21 +3,27 @@ Steps need to flash firmware into the MCU chip (ESP32)
 - suitable supply source to be attached
 - suitable ttl level to USB adapter connected, see parts list or FT232BL based adapter
 USB adapter to be plugged into Windows based system 7, 10 or 11 and the driver to be properly installed
+
 Then copy the files found under 'software/flash_download_tool_3.9.0/' to a suitable folder on your pc
 either copy the file BinFiles_269.zip to a windows folder (downloads or documents) and unzip then OR
 copy the four *.bin files to a windows folder (downloads or documents)
-Then start the start the 'flash_download_tool.exe' program and as it starts and prompt for data
-use following selection chipType => ESP32, workMode => Develop then click Ok
-This should result in the 'flash_download_tool.exe' to proceed to the next window where it needs data
-as to which files will be uploaded to the MCU ESP32 chip, eneter the follwindg data
+
+Then start the start the 'flash_download_tool.exe' program and as it starts up it prompts for data,
+use following selection: chipType => ESP32, workMode => Develop then click Ok
+
+This should result in the 'flash_download_tool.exe' to proceed to the next window where it needs additional data
+as to which files will be uploaded to the MCU ESP32 chip, enter the following data:
+
 C:\Users\<user>\<your used directory path to flash files>\bootloader_dio_40m.bin @ 0x1000
 C:\Users\<user>\<your used directory path to flash files>\partitions.bin @ 0x8000
 C:\Users\<user>\<your used directory path to flash files>\boot_app0.bin @ 0xe000
 C:\Users\<user>\<your used directory path to flash files>\firmware.bin @ 0x10000
+
 MAKE SURE these are check marked and all data regarding file names and load address info is correct !!!!
 and select 40 MHz, DIO, DoNotChgBin, the proper serial port is selected @ 230400 Baud
-Power up the control board press SW3 and hold it down, then press SW2 down and release SW2 the release SW3
-Then hit Start to flash and if communication is ok the progress bar at the bottom of the application will progress
-and at the end indicate a green finish button, press SW2 button and you should see startup text and RF_Meter screen
-which is notifing that it has invalid flash data, don't worry we will fix that in the next steps. 
-You have made it succesfully to the final step to allow loading the configuration/flash data file.
+
+Power up the control board press SW3 and hold it down, then press SW2 down and release SW2, finally release SW3
+Then hit 'Start' button in the tool to flash and if communication is ok the progress bar at the bottom of the application will display flashing progress
+and when the end indicate a greenish 'Finish' button, press SW2 button and you should see some startup text on the RF_Meter display, RF_Meter screen
+will then notify you that it has invalid flash data, don't worry, we will fix that in the next steps. 
+You have made it succesfully to the final step of building an operational control board to allow loading the configuration/flash data file.
