@@ -1,1 +1,30 @@
-work in progress !
+Suggested method to build the control board
+
+- make choice which prower source option you need
+	- via barrel connector J1
+	- Battery power
+	- Both of the above
+- via barrel connector J1 you will need to populate J1, F1, Q1 and switch connected to J3 or jumper J3 pin 2-3
+- via Battery power you will need to install charger pcb U1, F2, C3, Q2 and switch connected to J3, the BMS unit
+	can optionally bypassed by two jumpers B+ to P+ and B- to P-, the battery consist out of 2x L-ion type 18650
+	in series which can be mounted on the battery board connected to the control board with 3 lead cable.
+- If both than obviously you need to install both options
+The inductors L1 and L2 are also optionally components, board space is provide for additional filtering if needed
+else one can use some jumper wire.
+Please holdoff populating the U4/U5 regulator, the MCU chip and the 0 Ohm resistors, in case of U4 usage omit C11
+Next to solder are all the smd components, normal type 0803 resistors and standard caps either 100nF and 10 uF
+Next to solder are the push buttons, headers, flatcable connector.
+Probably good time now to clean the solder flux and inspect your solder work
+Next to solder would be U4 or U5 (BUT U4 regulator has proven to work fine and if less costly then U5)
+Time to inspect you work again and apply either battery power or via barrel jack
+	Check voltage at J3 pin 3 to be around 7 to 9 Volt (max) or J3 pin 1 to be aroun 6.5 to 8.4 voltage
+	Check voltage at J6 pin 7 or 11 to be same as your voltage source.
+	No smoke yet ? then proceed to jumper J3 to either 1 - 2 or 2 - 3 and observe voltage at junction R8 - C12
+	this should be 3.3 Volt +/- 100mV
+If all is well then remove power and insert R8 (0 Ohm resistor) then re-apply power measure 
+	pin 2 of MCU to be 3.3 Volt
+	Pin 1 U2 to be 3.3 Volt
+JP1 should normally be left open and JP2 depends on used uart adapter if power is needed for it it will need jumper
+Time to solder MCU chip and clean pcb afterwards to remove any flux residue.
+This should complete thecontrol board build however it would do anything untill firmware has been loaded to it.
+which will be explained in 'firmware' under software
