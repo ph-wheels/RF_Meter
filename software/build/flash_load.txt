@@ -7,8 +7,21 @@ Download and install the RealTerm from this source (https://sourceforge.net/proj
 fairly old program but still does the job at hand nicely.
 
 Start the RealTerm terminal emulator program and make following changes:
-- Select port tab and select the proper serial port (\Serialx) from drop down
+- Select 'Port' tab and select the proper serial port (\Serialx) for your USB adapter from drop down
 - Set communication speed to 9600 Baud, No Parity, 8 Bits, 1 Stop, No Flow Control
-- Click on the open button and then click on it again, notice port settings in right bottom corner to be active
+- Click on the 'Open' button and then click on it again, notice port settings in right bottom corner to be active
 
-- Now change to the send tab, => to be continued ....
+- Now change to the 'Send' tab and enter LP into first row text box, LS into second row text box
+- check mark +CR / +LF on both lines
+- On the 'Dump to ...' line click on the '...' button and browse to corr_rf_mtr.json file
+
+Now you are ready to execute the actual uploads (one for Polynomial, one for reference data) to the RF_Meter by
+- click on 'as ASCII' button on first line and the RF_Meter should respond with a message notifing it's ready to
+  recieve data within 10 second.
+- click on 'Send file' button to start the actual upload of the json file, should take a very short time
+- click on 'as ASCII' button on second line and the RF_Meter should respond with a message notifing it's ready to
+  recieve data within 10 second.
+- click on 'Send file' button to start the actual upload of the json file, should take a very short time
+
+This concludes the software initalization for the flash memory of the RF Meter and next startup should have fixed
+the Flash invalid messages.
