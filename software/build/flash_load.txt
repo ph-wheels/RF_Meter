@@ -1,4 +1,6 @@
+
 In order to be able to load the flash content we need:
+
 - Terminal emulation application, I used RealTerm for this as it's able to sent command's and upload a file
 - The flash content file in "JSON" format which is provide in this folder named "Corr-rf_mtr.json"
 - Operational Control board and firmware successfully loaded and running with USB serial adaptor connected to PC
@@ -13,7 +15,7 @@ Start the RealTerm terminal emulator program and make following changes:
 
 - Now change to the 'Send' tab and enter LP into first row text box, LS into second row text box
 - check mark +CR / +LF on both lines
-- On the 'Dump to ...' line click on the '...' button and browse to corr_rf_mtr.json file
+- On the 'Dump to ...' line click on the '...' button and browse to Corr-rf_mtr.json file
 
 Now you are ready to execute the actual uploads (one for Polynomial, one for reference data) to the RF_Meter by
 - click on 'as ASCII' button on first line and the RF_Meter should respond with a message notifing it's ready to
