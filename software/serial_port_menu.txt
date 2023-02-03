@@ -1,0 +1,36 @@
+  The RF Meter has an serial port interface which we already used for initial load of the flash memory
+  and how to use / setup the needed terminal emulator program can be found in fash_load.txt but
+  in general it's a 9600Baud, 8 bit, no parity, 1 stop bit uart setup.
+  
+  The serial menu will not send out any info unless it receives a serial command string (1-3 characters)
+  followed by space and parameter(s), this format may vary for each command, see overview below.
+  
+  Valid (uppercase only) commands & parameters are:
+    A           Continuous ADC conversion
+    A0 X y z    dBm Offset for A[0], X = A, B or C, y = range (1-3), z = value 
+    C X         Channel select where X = A, B or C
+    D x         Debug ADC printout, x = interval (1 - 49), to stop use x = 0
+    G x         Gain, where x = gain (1 - 8)
+    LP          Load Polynomial data to NVS storage
+    LS          Load Vref, Vbat, Sample Rate, # Samples & SPS delay data to NVS storage
+    AV x        # of samples used for Zero Offset
+    M           single ADC conversion
+    MD          single dBm conversion
+    MV          single Vac conversion
+    NF x        Noise Floor value, where x is range (0 (Off) < 200)  default = 30 //(700 = -60 dBm)
+    PS x y      x = ADC Vref value (default = 3.6V), y = Battery voltage
+    R x         range, where x = range (1 - 3)
+    RO          Auto Range on
+    RST         Resetting to factory, will need recal & reload of flash
+    U x         Display units, default 0, 0 = dBm, 1 = mW, (2 = uV --> under construction !)
+    V x         View Flash value's: 0 - system, 1 - A[0] correction, 2 - menu, 3 - calibration reg's, 4 - sps delays
+    
+    Note: range 3 = -55 to -25 dBm, range 2 = -25 to -5 dBm, range 1 = -5 dBm to +23 dBm
+          the M. MD and MV command's are intended to be used with an external application 
+          Once the instrument is completed an the actual battery and ADC 3V6 voltage are known then the PS command
+          needs to be executed to make an final correction for battery status display and Vref calibration of the ADC chip
+          
+          Once the above calibration has been done it may be needed to make a small correction for a channel and a range, this
+          can be done with the A0 command like A0 A 2 -0.234e-4 which will add an extra correction for that range while the
+          command A0 A 2 0 will remove the extra correction, the actual values and corrections can be displayed by V 1 command.
+          
