@@ -52,16 +52,6 @@
 
 /*
  * SW history:
- * 1.5b2  Added internal calibration at startup
- *        added labels for 0 / 1 flags
- * 
- * 1.6b   release for inital test to J.A.
- * 
- * 1.7    release for test based on 3 range setup
- * 
- * 1.8    release for test 3 chan, altered menu
- *        in progress
- *    b3  adding logic as to be able to switch between units
  * 
  * 2.0b1  switched to dual value display, removed menu items, added uW
  *    b2  adjusted chan # from 0-2 to 1-3 & feedback
