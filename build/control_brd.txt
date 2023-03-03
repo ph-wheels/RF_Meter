@@ -1,6 +1,6 @@
 Suggested method to build the control board
 
-- make choice which prower source option you need
+- make choice which power source option you need
 	- via barrel connector J1
 	- Battery power
 	- Both of the above
