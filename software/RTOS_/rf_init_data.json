@@ -1,6 +1,6 @@
 
-without any upfront measurements one can load follow data for
-polynome data:
+#without any upfront measurements one can load follow data for
+#polynome data:
 
 {
   "A_1": {"value": ["1.701847", "-2.164132", "0.413865", "-0.018022", "0.0"]},
@@ -16,8 +16,8 @@ polynome data:
   "C_3": {"value": ["-4.314696", "-0.165833", "0.198509", "-2.626658e-2", "1.301894e-3"]}
 }
 
-the following will need some live measurement and thn use the collected data for
-correction data:
+#the following will need some live measurement and thn use the collected data for
+#correction data:
 
-Zero_Offset data:
+#Zero_Offset data:
 
