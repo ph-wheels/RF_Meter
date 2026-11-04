@@ -7,4 +7,6 @@ Upon upload you will get a verification message either succesfull or failed, add
 you will get a table of the current NVS content. It's posible to overwrite current data by repeating the upload process using your
 newly collected data.
 
+to calculate the m_x_y value use correction for m_x_y = log10(Vac_target / Vac_measured)
+
 
