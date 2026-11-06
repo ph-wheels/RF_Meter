@@ -9,4 +9,4 @@ newly collected data.
 
 as an example to calculate the m_a_0 value use correction for m_a_0 = log10(Vac_target / Vac_measured)
 
-
+Note: on the new pcb the pins 9 / 14 are swapped, use bodge wire to fix it
