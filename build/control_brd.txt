@@ -1,5 +1,13 @@
 Suggested method to build the control board
 
+
+MIND This board needs to be revised as to fit the new analog board requirement with a max of +5Vdc else
+you will destroy the analog regulators and the analog parts.
+
+A new version is in the making !!!
+
+most under this line has become obsolete !!!
+
 - make choice which power source option you need
 	- via barrel connector J1
 	- Battery power
