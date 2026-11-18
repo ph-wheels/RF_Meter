@@ -10,6 +10,9 @@ The new rf board needs two bodge wire to swap:
 The 3v6 signal from pin 14 to pin 9 and the vRef signal from pin 9 to pin 14, both are on
 the top layer near U8 and C27 / C37 and require this mandatory change
 
+In due time a enhanced rf_brd version may become available whcih fixed the bodge wires and
+will reduce capacity losses of input section
+
 Also also don't use U4 AMS1117-3V3, to noisy, using the LT1671-3V3 instead is advised.
 Board changes for the control board are: U2 wire from pin 14 to pin 1
 add 5Vdc output regulator instead of L1
