@@ -1,6 +1,6 @@
 RF power meter (ESP32 + MAX11270)
 
-A two-channel RF level meter for about −55 dBm to +15 dBm into 50 Ω, built on an ESP32 running FreeRTOS. The RF detector output goes to a 24-bit MAX11270 delta-sigma ADC through a switchable gain and attenuator stage. A calibration polynomial per channel and range turns the ADC code into volts and dBm.
+A two-channel RF level meter for about −55 dBm to +15 dBm (23 dBm not yet tested) into 50 Ω, built on an ESP32 running FreeRTOS. The RF detector output goes to a 24-bit MAX11270 delta-sigma ADC through a switchable gain and attenuator stage. A calibration polynomial per channel and range turns the ADC code into volts and dBm.
 
 Display and controls: 480×320 ILI9488 touch display (XPT2046), rotary encoder with push button. See DISPLAY_HELP.md for how to use it.
 
