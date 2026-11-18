@@ -2,7 +2,6 @@ IMPORTANT NOTE: New rf_meter_v51_rf_adc has a MAX input voltage of 5Vdc @ J6 pin
 any higher than that may destroy the Vref U10 !!!
 
 The new firmware for the adjusted control board is now operational and tested to work
-=====================================================================================
 
 A few changes to the old control board are needed as the max supply voltage for analog board
 needs to be 5Vdc or little less.
