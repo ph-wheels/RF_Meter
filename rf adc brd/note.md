@@ -13,6 +13,6 @@ will reduce capacity losses of input section
 A few changes to the old control board are needed prior to usage with the v1.6 rf board
 as the max supply voltage for analog board has been reduced to be 5Vdc or little less.
 
-Also also don't use U4 AMS1117-3V3, to noisy, using the LT1671-3V3 instead is advised.
+Also also don't use U4 AMS1117-3V3, to noisy, using the U5 LT1671-3V3 instead is advised.
 Board changes for the control board are: U2 wire from pin 14 to pin 1
 add 5Vdc output regulator instead of L1
