@@ -5,7 +5,7 @@ The new firmware for the adjusted control board is now operational and tested to
 
 The new rf v1.6 board needs two trace cuts & two bodge wires as to swap:
 The 3v6 signal from pin 14 to pin 9 and the vRef signal from pin 9 to pin 14, both are on
-the top layer near U8 and C27 / C37 and require this mandatory change, see 
+the top layer near U8 and C27 / C37 and require this mandatory change, see [DISPLAY_HELP.md](DISPLAY_HELP.md)
 
 In due time a enhanced rf_brd v1.7 may become available which fixes the bodge wires and
 will reduce capacity losses of input section
