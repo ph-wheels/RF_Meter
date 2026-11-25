@@ -141,10 +141,10 @@ Current calibration: 50 MHz, bipolar, cubic fits, both channels flat to about ±
 - Channel C is a placeholder (calibration copied from A) and has no measured calibration.
 - Redrawing the display takes about 0.5 s per frame; it is throttled to keep the ADC supplied.
 
+## Acknowledgements
+
 A completely redesigned firmware is now available. Early tests look promising, showing:
-
 Improved signal stability Cleaner code Solid task isolation between auto-range, SSR driver, and the menu system with parameter storage
-
 This was made possible largely thanks to Espressif's ESP32 FreeRTOS implementation (with help of Claude) — a real game-changer for the codebase.
 
 Have fun building!
